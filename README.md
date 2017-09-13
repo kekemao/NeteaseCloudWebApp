@@ -1,8 +1,15 @@
-# neteasecloud
+# netease-clound-webapps
 
-> neteasecloud nusic of vue
+> 这是一个用VUEJS写高仿网易云音乐的webapp，只实现了小部分功能。
 
-## Build Setup
+
+### 技术栈
+- 传说中的VUE全家桶(vue vue-router vuex)
+- axios
+- VUX一个基于Vue2的移动端组件
+
+
+## 安装运行（Build Setup）
 
 ``` bash
 # install dependencies
@@ -14,9 +21,6 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
 # run unit tests
 npm run unit
 
@@ -27,4 +31,7 @@ npm run e2e
 npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 鸣谢
+
+此网站提供的API: [https://api.imjad.cn/cloudmusic/](https://api.imjad.cn/cloudmusic/) ,(https://api.imjad.cn/cloudmusic/index.html)
+[MusicApi](https://github.com/javaSwing/MusicAPI)
